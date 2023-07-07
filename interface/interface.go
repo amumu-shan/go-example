@@ -10,3 +10,6 @@ type Square struct {
 func (sq *Square) Area() float32 {
 	return sq.side * sq.side
 }
+func (sq *Square) Sub() float32 {
+	return sq.side - sq.side
+}
