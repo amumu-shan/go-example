@@ -14,17 +14,17 @@ func (l *List) Append(val int) {
 	*l = append(*l, val)
 }
 
-// Car -------------
-type Car struct {
+// Car1 -------------
+type Car1 struct {
 	wheelCount int
 }
 
-func (c *Car) numberOfWheels() {
+func (c *Car1) numberOfWheels() {
 	fmt.Println("car numberOfWheels:", c.wheelCount)
 }
 
 type Mercedes struct {
-	Car
+	Car1
 }
 
 func (m *Mercedes) sayHiToMerkel() {
