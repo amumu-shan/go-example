@@ -1,6 +1,8 @@
 package panic
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func DoRecover() {
 	defer func() {
